@@ -9,4 +9,4 @@ def converter(x, z):
         c = 5/9*(z-32)
         return c
 
-converter(type, degrees)
+x = converter(type, degrees)
