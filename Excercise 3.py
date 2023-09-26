@@ -1,8 +1,8 @@
 import random
-y = True
+y = True   #dummy variable
 
 while y == True:
-    x = int(input("Take a guess"))
-    if x == random.randint(1,9):
+    guess_number = int(input("Take a guess"))
+    if guess_number == random.randint(1,9):
         print("You got it")
         y = False
