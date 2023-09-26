@@ -8,6 +8,7 @@ def converter(x, z):
         return f
     else: 
         c = 5/9*(z-32)
+        print(f"{z} fahrenheit = {c} celcius degrees")
         return c
 
 x = converter(type, degrees)
