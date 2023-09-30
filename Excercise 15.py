@@ -34,7 +34,7 @@ for i in range(len(password)):  # this loop checks if an Upper and a lower case 
         if password[i] == numbers[l]:
             numbers_variable = 1
 
-Test = length_variable + lower_variable + Upper_variable + special_variable + numbers_variable + 
+Test = length_variable + lower_variable + Upper_variable + special_variable + numbers_variable
 Test
 
 if Test < 5:
